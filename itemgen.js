@@ -9,4 +9,4 @@ let itemIndex = Math.floor(Math.random() * itemArr.length);
 let affixIndex = Math.floor(Math.random() *  affixArr.length);
 
 //Log message with the random item to console.
-console.log(`You slew a ${monsterArr[monsterIndex]}, and it dropped a ${itemArr[itemIndex]} of ${affixArr[affixIndex]}!`);
+console.log(`You have slain a ${monsterArr[monsterIndex]}! It dropped a ${itemArr[itemIndex]} of ${affixArr[affixIndex]}!`);
